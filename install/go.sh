@@ -8,7 +8,7 @@ curl -sSL https://git.io/g-install | sh -s
 # Install Latest Go Version and Global Updater
 ####################################################################################################
 
-g install latest   # Install latest stable Go version
+g install latest -y   # Install latest stable Go version
 
 ####################################################################################################
 # Install Go Language Tools

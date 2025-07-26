@@ -12,9 +12,9 @@ mkdir -p "$logDir"
 
 run_install () {
   local script_name=$(basename "$1" .sh)
-  echo "$(date) Running $script_name..." >> "${archDir}/log/${script_name}.out"
+  echo "$(date) Running $script_name..." >> "$HOME/dotfiles/log/${script_name}.out"
   if [ -f "$1" ]; then
-    bash "$1" >> "${archDir}/log/${script_name}.out" 2>> "${archDir}/log/${script_name}.err" &
+    bash "$1" >> "$HOME/dotfiles/log/${script_name}.out" 2>> "$HOME/dotfiles/log/${script_name}.err" &
   else
     echo "Install script $1 not found" >&2
   fi

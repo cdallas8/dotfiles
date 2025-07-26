@@ -1,10 +1,4 @@
 ####################################################################################################
-# Install Homebrew
-####################################################################################################
-
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-####################################################################################################
 # Helper function for installing packages
 ####################################################################################################
 
@@ -23,20 +17,20 @@ install_casks() {
 ####################################################################################################
 
 install_formulae \           #
-  bat-extras \               # bat utilities  
-  cljfmt \                   # Clojure formatter  
-  fzf \                      # fuzzy finder  
-  gh \                       # GitHub CLI  
-  helix \                    # code editor  
-  joplin-cli \               # Joplin CLI  
-  llvm \                     # compiler toolchain  
-  micro \                    # terminal editor  
-  mysql \                    # MySQL DB  
-  nushell \                  # structured shell  
-  ollama \                   # local LLM runner  
-  postgresql \               # PostgreSQL DB  
-  sqlite \                   # SQLite engine  
-  starship                   # shell prompt  
+  bat-extras \               # bat utilities
+  cljfmt \                   # Clojure formatter
+  fzf \                      # fuzzy finder
+  gh \                       # GitHub CLI
+  helix \                    # code editor
+  joplin-cli \               # Joplin CLI
+  llvm \                     # compiler toolchain
+  micro \                    # terminal editor
+  mysql \                    # MySQL DB
+  nushell \                  # structured shell
+  ollama \                   # local LLM runner
+  postgresql \               # PostgreSQL DB
+  sqlite \                   # SQLite engine
+  starship                   # shell prompt
 
 # MongoDB requires tapping before install
 brew tap mongodb/brew

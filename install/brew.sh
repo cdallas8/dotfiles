@@ -2,20 +2,20 @@
 # Formulae
 ####################################################################################################
 
-brew install  bat-extras \               # bat utilities
-brew install  cljfmt \                   # Clojure formatter
-brew install  fzf \                      # fuzzy finder
-brew install  gh \                       # GitHub CLI
-brew install  helix \                    # code editor
-brew install  joplin-cli \               # Joplin CLI
-brew install  llvm \                     # compiler toolchain
-brew install  micro \                    # terminal editor
-brew install  mysql \                    # MySQL DB
-brew install  nushell \                  # structured shell
-brew install  ollama \                   # local LLM runner
-brew install  postgresql \               # PostgreSQL DB
-brew install  sqlite \                   # SQLite engine
-brew install  starship                   # shell prompt
+brew install bat-extras \               # bat utilities
+brew install cljfmt \                   # Clojure formatter
+brew install fzf \                      # fuzzy finder
+brew install gh \                       # GitHub CLI
+brew install helix \                    # code editor
+brew install joplin-cli \               # Joplin CLI
+brew install llvm \                     # compiler toolchain
+brew install micro \                    # terminal editor
+brew install mysql \                    # MySQL DB
+brew install nushell \                  # structured shell
+brew install ollama \                   # local LLM runner
+brew install postgresql \               # PostgreSQL DB
+brew install sqlite \                   # SQLite engine
+brew install starship                   # shell prompt
 
 # MongoDB requires tapping before install
 brew tap mongodb/brew

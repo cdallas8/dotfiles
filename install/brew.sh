@@ -1,36 +1,21 @@
 ####################################################################################################
-# Helper function for installing packages
-####################################################################################################
-
-install_formulae() {
-  echo "Installing formulae..."
-  brew install "$@"
-}
-
-install_casks() {
-  echo "Installing casks..."
-  brew install --cask "$@"
-}
-
-####################################################################################################
 # Formulae
 ####################################################################################################
 
-install_formulae \           #
-  bat-extras \               # bat utilities
-  cljfmt \                   # Clojure formatter
-  fzf \                      # fuzzy finder
-  gh \                       # GitHub CLI
-  helix \                    # code editor
-  joplin-cli \               # Joplin CLI
-  llvm \                     # compiler toolchain
-  micro \                    # terminal editor
-  mysql \                    # MySQL DB
-  nushell \                  # structured shell
-  ollama \                   # local LLM runner
-  postgresql \               # PostgreSQL DB
-  sqlite \                   # SQLite engine
-  starship                   # shell prompt
+brew install  bat-extras \               # bat utilities
+brew install  cljfmt \                   # Clojure formatter
+brew install  fzf \                      # fuzzy finder
+brew install  gh \                       # GitHub CLI
+brew install  helix \                    # code editor
+brew install  joplin-cli \               # Joplin CLI
+brew install  llvm \                     # compiler toolchain
+brew install  micro \                    # terminal editor
+brew install  mysql \                    # MySQL DB
+brew install  nushell \                  # structured shell
+brew install  ollama \                   # local LLM runner
+brew install  postgresql \               # PostgreSQL DB
+brew install  sqlite \                   # SQLite engine
+brew install  starship                   # shell prompt
 
 # MongoDB requires tapping before install
 brew tap mongodb/brew
@@ -44,26 +29,25 @@ brew install --cask git-credential-manager-core
 # Casks
 ####################################################################################################
 
-install_casks \              #
-  alacritty \                # Fast GPU-based terminal
-  alfred \                   # App launcher and automation
-  appcleaner \               # Removes leftover app files
-  arc \                      # Modern browser
-  docker \                   # Containers and dev environments
-  dropbox \                  # Cloud file sync
-  espanso \                  # Text expander
-  font-hack-nerd-font \      # Font with icons
-  logi-options-plus \        # Logitech device config
-  nordvpn \                  # VPN client
-  rectangle \                # Window tiling
-  rig \                      # R version manager
-  skim \                     # PDF reader with highlights
-  slack \                    # Team messaging
-  telegram \                 # Secure messaging
-  the-unarchiver \           # Archive extractor
-  transmission \             # Torrent client
-  vlc \                      # Media player
-  whatsapp \                 # Messaging app
-  xquartz                    # X11 server for macOS
+brew install --cask alacritty \                # Fast GPU-based terminal
+brew install --cask alfred \                   # App launcher and automation
+brew install --cask appcleaner \               # Removes leftover app files
+brew install --cask arc \                      # Modern browser
+brew install --cask docker \                   # Containers and dev environments
+brew install --cask dropbox \                  # Cloud file sync
+brew install --cask espanso \                  # Text expander
+brew install --cask font-hack-nerd-font \      # Font with icons
+brew install --cask logi-options-plus \        # Logitech device config
+brew install --cask nordvpn \                  # VPN client
+brew install --cask rectangle \                # Window tiling
+brew install --cask rig \                      # R version manager
+brew install --cask skim \                     # PDF reader with highlights
+brew install --cask slack \                    # Team messaging
+brew install --cask telegram \                 # Secure messaging
+brew install --cask the-unarchiver \           # Archive extractor
+brew install --cask transmission \             # Torrent client
+brew install --cask vlc \                      # Media player
+brew install --cask whatsapp \                 # Messaging app
+brew install --cask xquartz                    # X11 server for macOS
 
 ####################################################################################################

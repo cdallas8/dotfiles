@@ -24,12 +24,12 @@ run_install () {
 # Run install scripts
 ####################################################################################################
 
-in_silico="${archDir}/install"
-run_install "${in_silico}/brew.sh"
-run_install "${in_silico}/go.sh"
-run_install "${in_silico}/julia.sh"
-run_install "${in_silico}/R.sh"
-run_install "${in_silico}/rust.sh"
+installDir="install"
+run_install "${installDir}/brew.sh"
+run_install "${installDir}/go.sh"
+run_install "${installDir}/julia.sh"
+run_install "${installDir}/R.sh"
+run_install "${installDir}/rust.sh"
 
 ####################################################################################################
 # Wait for background jobs

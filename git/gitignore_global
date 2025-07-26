@@ -1,0 +1,8 @@
+# OSX folder view configuration files
+.DS_Store
+
+# temporary python files
+__pycache__
+
+# todor
+.todor

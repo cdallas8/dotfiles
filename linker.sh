@@ -95,7 +95,7 @@ ln -sf "${dotfiles}/broot/conf.toml" "${config}/broot"                          
 
 ln -sf "${dotfiles}/micro" "${config}"                                                  && echo "Linked ${BIYELLOW}=>${NC} ${BBLUE}micro${NC} directory"
 ln -sf "${dotfiles}/sheldon" "${config}"                                                && echo "Linked ${BIYELLOW}=>${NC} ${BBLUE}sheldon${NC} directory"
-ln -sf "${dotfiles}/starship" "${config}"                                               && echo "Linked ${BIYELLOW}=>${NC} ${BBLUE}starship${NC} directory"
+ln -sf "${dotfiles}/starship/starship.toml" "${config}"                                               && echo "Linked ${BIYELLOW}=>${NC} ${BBLUE}starship${NC} directory"
 
 # ln -sf "${term}/osx_profile.sh" "${home}/.profile"                             && echo "Linked ${BIYELLOW}=>${NC} ${BBLUE}term${NC} profile"
 # ln -sf "${zsh}/osx_zshrc.sh" "${home}/.zsh"                                    && echo "Linked ${BIYELLOW}=>${NC} ${BBLUE}zshrc${NC}"

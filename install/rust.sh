@@ -5,7 +5,7 @@
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
 # Reload shell config
-source "$HOME/.archive/ex-situ/shell/zsh/osx_zshrc.sh"
+source "$HOME/.zshrc"
 
 ####################################################################################################
 # Cargo Setup
@@ -101,7 +101,7 @@ install_crates=(
 for ((i = 0; i < ${#install_crates[@]}; i++)); do
   crate="${install_crates[i]}"
   next="${install_crates[i + 1]:-}"
-  
+
   if [[ "$crate" == "--git" ]]; then
     continue
   elif [[ "$next" == "--git" ]]; then

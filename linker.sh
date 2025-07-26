@@ -81,7 +81,7 @@ export dotfiles="${home}/dotfiles"
 
 ####################################################################################################
 
-ln -sf "${alacritty}" "${config}/"                                             && echo "Linked ${BIYELLOW}=>${NC} ${BBLUE}alacritty${NC}"
+ln -sf "${dotfiles}/alacritty" "${config}/"                                             && echo "Linked ${BIYELLOW}=>${NC} ${BBLUE}alacritty${NC}"
 
 ln -sf "${dotfiles}/git/gitconfig" "${home}/.gitconfig"                                     && echo "Linked ${BIYELLOW}=>${NC} ${BBLUE}gitconfig${NC}"
 ln -sf "${dotfiles}/git/gitignore_global" "${home}/.gitignore_global"                              && echo "Linked ${BIYELLOW}=>${NC} ${BBLUE}gitignore_global${NC}"
